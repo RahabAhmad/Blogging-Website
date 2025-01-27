@@ -1,4 +1,4 @@
-name: wf-develop-deploy
+name: wf-develop-deployy
 on:
   push:
     branches: 
