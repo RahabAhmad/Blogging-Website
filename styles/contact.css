@@ -5,7 +5,7 @@ body {
   }
   
   header {
-    background-color: #289ca7;
+    background-color: #35c3dc;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -30,10 +30,25 @@ body {
     padding: 20px;
   }
   
-  article {
-    margin-bottom: 20px;
-    padding: 15px;
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
     border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
   
   footer {
